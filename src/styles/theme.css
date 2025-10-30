@@ -1,0 +1,55 @@
+:root {
+  /* 🎨 Color tokens - Based on Visual Consistency Guide */
+  --color-accent: #0284c7; /* sky-600 */
+  --color-success: #1DD1A1;
+  --color-warning: #F6B93B;
+  --color-error: #E55039;
+  
+  /* Backgrounds */
+  --color-neutral-bg: #f9fafb;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f9fafb;
+
+  /* Text */
+  --color-text: #111827;
+  --color-muted: #6b7280;
+
+  /* Borders */
+  --color-border: #e5e7eb;
+
+  /* ✨ Shadows & Motion */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --transition-default: 200ms ease-in;
+
+  /* Patients Choice Brand Sky */
+  --pc-sky-700: #0369a1; /* sky-700 */
+  --pc-sky-600: #0284c7; /* sky-600 */
+  --pc-sky-50: #f0f9ff;  /* sky-50 */
+  --pc-focus: rgba(2, 132, 199, 0.35);
+}
+
+[data-theme="dark"] {
+  /* Backgrounds */
+  --color-neutral-bg: #121212;
+  --color-surface: #1e1e1e;
+  --color-surface-alt: #2d2d2d;
+
+  /* Text */
+  --color-text: #f3f4f6;
+  --color-muted: #9ca3af;
+  
+  /* Borders */
+  --color-border: #2d2d2d;
+
+  /* Accents - Desaturated for dark mode */
+  --color-accent: #38bdf8; /* sky-400 */
+  --color-success: #2EEFBF;
+  --color-warning: #F8C765;
+  --color-error: #fb6f5f;
+
+  /* Dark theme adjustments for PC Sky */
+  --pc-sky-700: #7dd3fc; /* sky-300 */
+  --pc-sky-600: #38bdf8; /* sky-400 */
+  --pc-sky-50: #0c4a6e;  /* sky-900 */
+  --pc-focus: rgba(56, 189, 248, 0.35);
+}
